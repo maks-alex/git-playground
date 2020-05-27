@@ -1,9 +1,8 @@
 namespace NiceProject
 {
-    using System;
     using System.Collections.Generic;
 
-    internal class StubFileReader : IFileReader
+    internal class EmptyFileReader : IFileReader
     {
         public IEnumerable<int> ReadAllNumbers()
         {
